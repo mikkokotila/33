@@ -1,13 +1,19 @@
-## README FOR 33.sh
+## 33.sh
+# a simple script for exploring the unsolved 
+# problem of 33 as a sum of three cubes.
 
-Watch this short video first: 
+To get the background for the problem, watch 
+this short video first: 
 
 https://www.youtube.com/watch?v=wymmCdLdPvM
 
-It talks about the unsolved problem of 33. 
+I'm intersted in this problem because: 
 
-I'm interested in this problem for few reasons: 
+- Nobody has been able to solve it 
+- It seeems like a very hard problem 
+- I learn about managing complexity
+- I learn mathematical computing
 
-- it gives a great way to learn about patterns in numbers 
-- it gives a great way to learn about mathematical computing
-- nobody has solved it yet 
+I'm also interested in the option that 33
+should not be on the list of numbers that can be 
+a sum of three cubes. And how to prove it. 
