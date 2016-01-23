@@ -7,25 +7,22 @@ I'm intersted in this problem because:
 - I learn about managing complexity
 - I learn mathematical computing
 
-Before anything else, please note that this is a "kit" for learning about numbers, complexity and computer-aided research. I do think the problem can be solved by applying a relatively simplistic method. 
+Before anything else, please note that this is a "kit" for learning about numbers, complexity and computer-aided research. I do think the problem can be solved by applying a relatively simplistic method. None of this intented for serious mathematical computing, but learning. 
 
-You can find two scripts that do a similar thing: 
+You can find two scripts that both do a similar thing: 
 
 1) 33.sh (bash)
 2) 33.py (python)
 
-The Python one is more comrehensive in its function, and at least 1,000x faster. I think it has less overhead for math operations and more importantly, it allows storing values easily in a memory rather than accessing file again and again. 
+The Python one is more comprehensive in its capability, and at least 1,000x faster. I think Python comes with significantly less overhead for math operations and more importantly, it allows storing values easily in a memory rather than accessing a file again and again. 
 
 To get the background for the problem, watch this short video first: 
 
 https://www.youtube.com/watch?v=wymmCdLdPvM
 
+I'm also interested in the option that 33 should not be on the list of numbers that can be a sumof three cubes. And how to prove it. 
 
-I'm also interested in the option that 33 should 
-not be on the list of numbers that can be a sum 
-of three cubes. And how to prove it. 
-
-### 33.sh
+### for total beginners, start with 33.sh
 
 To run the script, you need to have the input file 
 where you have the cubes you want to check against. 
