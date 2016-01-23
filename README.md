@@ -27,3 +27,16 @@ You will also end up with an output file, where you
 can find the results. 
 
 OUTPUT FILE: 33.output
+
+### once you are running the script 
+
+For monitoring (learning!) here are two commands you can run on separate windows. The first one will keep showing the last top20 results. I found this quite useful initially to learn how the changes take place in the rankings. 
+
+while :; do echo -e "---start---"; LC_ALL=C cat test.output | sed '1d' | cut -d '=' -f2 | sed 's/[[:blank:]]//g' | sort | uniq -c | sort -nr | head -20; done
+
+I also run one more screen, with: 
+
+$ while :; do cat test.output | tail -1; done
+
+That way I can see the last calculation always. 
+
