@@ -40,3 +40,4 @@ $ while :; do cat test.output | tail -1; done
 
 That way I can see the last calculation always. 
 
+NOTE: these are just for testing, as they should notably make the main script slower. 
