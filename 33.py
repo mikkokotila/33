@@ -1,9 +1,11 @@
 #!/usr/bin/python
 
-sequence = range(10+1)
+sequence = range(1000+1)
 list = []
 for s in sequence:
 	list.append(s*s*s)
+
+result = []
 
 sequence_one = list	
 for a in sequence_one:
@@ -12,10 +14,10 @@ for a in sequence_one:
 	for b in sequence_two:
 
 		sequence_three = list
-		result = []
 		for c in sequence_three:
 
-				result.append(a+b+c)
-				result.append(a+b-c)
-				result.append(a-b+c)
-				result.append(a-b-c)
+			result.append(a+b+c)
+			result.append(a+b-c)
+			result.append(a-b+c)
+			result.append(a-b-c)
+print(result)
