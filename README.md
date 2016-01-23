@@ -41,3 +41,16 @@ $ while :; do cat test.output | tail -1; done
 That way I can see the last calculation always. 
 
 NOTE: these are just for testing, as they should notably make the main script slower. 
+
+### complexity involved in the computations 
+
+Let's say we want to scan every option for cubes of the first 100 whole numbers. 1,2,3,4,5,6..3434,3435...and so forth. It means we have to deal with 100 x 100 x 100 = 1,000,000 possible combinations. Because we have to factor the possible +/-  variations, maybe we have to 10-fold that. 10 million calculations...that's easy with the script we have here. 
+
+Let's say we want to do the same for the first 10,000. Then we have complexity of 10000 x 10000 x 10000 = 1,000,000,000,000. A trillion computations is already a problem for a lot of people. Even then, we're just covering the first 10000 cubes. As the video suggest, this problem has been explored to 1 and 14 zeros, which makes the complexity: 
+
+100,000,000,000,000 x 100,000,000,000,000 x 100,000,000,000,000 = 1E42
+
+I have no idea how big that number is. On one hand the problem is very simple, but on one hand very complex. 
+
+
+
