@@ -1,6 +1,4 @@
-## 33.sh
-# a simple script for exploring the unsolved 
-# problem of 33 as a sum of three cubes.
+## the unsolved problem of 33
 
 To get the background for the problem, watch 
 this short video first: 
