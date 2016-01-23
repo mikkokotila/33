@@ -10,9 +10,9 @@ while read CUBE1
 		while read CUBE3
 			do
 				RESULT1=$(expr $CUBE1 + $CUBE2 + $CUBE3)
-				echo $RESULT1 >> test.output			
+				echo $RESULT1 >> 33.output			
 			done <test.input
 			RESULT2=$(expr $CUBE1 + $CUBE2 + $CUBE3)
-			echo $RESULT2 >> test.output
+			echo $RESULT2 >> 33.output
 	done <33.input
 done <33.input
