@@ -1,16 +1,25 @@
 ## the unsolved problem of 33
 
-To get the background for the problem, watch 
-this short video first: 
-
-https://www.youtube.com/watch?v=wymmCdLdPvM
-
 I'm intersted in this problem because: 
 
 - Nobody has been able to solve it 
 - It seeems like a very hard problem 
 - I learn about managing complexity
 - I learn mathematical computing
+
+Before anything else, please note that this is a "kit" for learning about numbers, complexity and computer-aided research. I do think the problem can be solved by applying a relatively simplistic method. 
+
+You can find two scripts that do a similar thing: 
+
+1) 33.sh (bash)
+2) 33.py (python)
+
+The Python one is more comrehensive in its function, and at least 1,000x faster. I think it has less overhead for math operations and more importantly, it allows storing values easily in a memory rather than accessing file again and again. 
+
+To get the background for the problem, watch this short video first: 
+
+https://www.youtube.com/watch?v=wymmCdLdPvM
+
 
 I'm also interested in the option that 33 should 
 not be on the list of numbers that can be a sum 
