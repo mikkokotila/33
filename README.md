@@ -9,7 +9,7 @@ I'm intersted in this problem because:
 
 Before anything else, please note that this is a "kit" for learning about numbers, complexity and computer-aided research. I do think the problem can be solved by applying a relatively simplistic method. None of this intented for serious mathematical computing, but learning. 
 
-You can find two scripts that both do a similar thing: 
+You can find three scripts that both do a similar thing: 
 
 1) 33.sh (bash)
 
