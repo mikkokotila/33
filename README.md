@@ -12,7 +12,9 @@ Before anything else, please note that this is a "kit" for learning about number
 You can find two scripts that both do a similar thing: 
 
 1) 33.sh (bash)
+
 2) 33.py (python)
+
 3) 33.cpp (c++)
 
 The Python one is more comprehensive in its capability, and at least 1,000x faster. I think Python comes with significantly less overhead for math operations and more importantly, it allows storing values easily in a memory rather than accessing a file again and again. 
